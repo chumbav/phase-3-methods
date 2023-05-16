@@ -25,3 +25,15 @@ def halve(number)
     end
 end
 halve(10)
+
+
+def add (num1, num2)
+   return num1 + num2 
+end
+
+return 'pry'
+
+def my_name name
+    binding.pry"Hi, my name is #{name}"
+end
+my_name()
